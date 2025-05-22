@@ -5,6 +5,12 @@ import matplotlib.pyplot as plt
 import tempfile
 import os
 
+try:
+    import whisper
+except ImportError:
+    st.error("Whisper is not installed. Please install it using: pip install openai-whisper")
+    st.stop()
+
 # --- Login Page ---
 def login():
     st.title("🔐 Login Page")
