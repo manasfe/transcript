@@ -1,7 +1,7 @@
 streamlit
-faster-whisper
 transformers
-torch
-torchaudio
-librosa
+torch --index-url https://download.pytorch.org/whl/cpu
 matplotlib
+numpy
+scipy
+git+https://github.com/openai/whisper.git
