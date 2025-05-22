@@ -1,7 +1,0 @@
-streamlit
-faster-whisper
-transformers
-torch
-torchaudio
-librosa
-matplotlib
